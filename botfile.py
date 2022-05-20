@@ -4,7 +4,7 @@ TOKEN='Enter bot token here' #Paste your bot's token from Discord Dev Portal
 client=discord.Client()
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print('Logged in as {0.user}'.format(client))
 @client.event
 async def on_message(message):
     username=str(message.author).split('#')[0]

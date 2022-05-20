@@ -14,7 +14,7 @@ async def on_message(message):
     if message.author==client.user:
         return
     elif user_message.lower()=='never gonna' or user_message.upper()=='Never gonna':
-        await message.channel.send('give you up :D')
+        await message.channel.send('give you up')
         return
     elif user_message.lower()=='deez nuts' or user_message.upper()=='Deez nuts':
         await message.channel.send('gottem')

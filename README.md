@@ -5,6 +5,6 @@ First time using an API for something "useful". Experienced some hiccups with tr
 
 Basic features: 
 
-## -Client connection indicator<br>-Server logging<br>-Bot commands/automatic messages triggered upon input
+### -Client connection indicator<br>-Server logging<br>-Bot commands/automatic messages triggered upon input
 
 Additionally, I referenced various useful links in the YAML file. They include Discord's developer portal, discord.py official documentation, Hikari's (discord.py API wrapper) GitHub page, and its respective official documentation site.
